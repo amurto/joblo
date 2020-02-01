@@ -40,6 +40,13 @@ const AllResumes = () => {
         c = filteredResumes.length
     }
 
+    let searchVar;
+    if (skillContext.search) {
+        searchVar = <h4>Showing {c} results for {skillContext.search}</h4>
+    } else {
+        searchVar = <h4>Showing all results</h4>
+    }
+
     return (
         <React.Fragment>
             <ErrorModal error={error} onClear={clearError} />
@@ -51,7 +58,7 @@ const AllResumes = () => {
             {!isLoading && (
                 <React.Fragment>
                 <div>
-                    <h4>Showing {c} results</h4>
+                    {searchVar}
                 </div>
                 <hr></hr>
                 {loadedResumes && <ResumeList items={filteredResumes} />}               

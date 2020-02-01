@@ -3,10 +3,6 @@ import React from 'react';
 import './SearchBar.css';
 
 const SearchBar = props => {
-    // const searchicon = () => {
-    //     return <i className="fas fa-search"></i>
-    // }
-
     return (
     <div className="search-bar">
         <input 

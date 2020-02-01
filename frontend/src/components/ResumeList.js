@@ -26,6 +26,7 @@ const ResumeList = props => {
                         company={resume.company} 
                         degree={resume.degree}
                         designation={resume.designation}
+                        resumePath={resume.resume}
                     />
                 )}
             </Row>

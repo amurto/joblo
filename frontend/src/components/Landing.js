@@ -4,6 +4,7 @@ import { SkillContext } from './skill-context';
 import { Container, Row, Col } from 'react-bootstrap';
 import SearchBar from './SearchBar';
 import AllResumes from './AllResumes';
+import Filter from './Filter';
 
 import './Landing.css';
 
@@ -16,7 +17,8 @@ const Landing = () => {
         <Container className="container-div">
             <Row>
                 <Col sm={true} className="sidediv">
-                    Filters
+                    <h4>Recommended skills</h4>
+                    <Filter />
                 </Col>
                 <Col sm={true}>
                     <SearchBar handleInput={handleInput} />
