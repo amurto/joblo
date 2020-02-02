@@ -7,8 +7,8 @@ import './NavBar.css';
 const NavBar = () => {
     return (
         <Navbar className="navbar-top">
-            <img src={logo} alt="Joblesse" />
-            <h1 className="navbrand"> &nbsp; Joblesse</h1>
+            <img src={logo} alt="JobLo" />
+            <h1 className="navbrand"> &nbsp; JobLo</h1>
         </Navbar>
     )
 };
