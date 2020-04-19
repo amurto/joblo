@@ -31,7 +31,7 @@ NER tagger for scraping designation from the text using spaCy.
 Matching entered keyword with a designation from filtered resumes.
  
 ## Webapp Images
-![Image of Demo](images/demo.jpg)
+![Image of Demo](templates/demo.jpg)
 
 # Installation
 
@@ -65,6 +65,7 @@ Start the backend server on port 5000.
 cd backend
 python app.py
 ```
+
 Run the webapp.
 ```bash
 cd frontend
@@ -74,6 +75,12 @@ npm start
 Open a web browser and go to
 ```bash
 http://localhost:5000
+```
+
+Run the webcraper
+```bash
+cd backend
+python scrape.py
 ```
 
 # License
