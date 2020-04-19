@@ -65,6 +65,11 @@ Start the backend server on port 5000.
 cd backend
 python app.py
 ```
+Open a web browser and go to
+```bash
+http://localhost:5000/upload
+```
+Upload resumes ont his page
 
 Run the webapp.
 ```bash
@@ -74,7 +79,7 @@ npm start
 
 Open a web browser and go to
 ```bash
-http://localhost:5000
+http://localhost:3000
 ```
 
 Run the webcraper
